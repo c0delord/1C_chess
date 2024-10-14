@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаОчередность" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очередность</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа очередность</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаОчередностьРасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<InputField name="ТестПартия_очередность" id="1">
+					<DataPath>ТестПартия</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Партия</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТестПартия_очередностьКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ТестПартия_очередностьРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<Button name="ТестОпределитьОчередность" id="4">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ТестОпределитьОчередность</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Определить очередность</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ТестОпределитьОчередностьРасширеннаяПодсказка" id="5"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПеремещение" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перемещение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа перемещение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаПеремещениеРасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<InputField name="ТестИсточник" id="10">
+					<DataPath>ТестИсточник</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клетка источник</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТестИсточникКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ТестИсточникРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="ТестНазначение" id="13">
+					<DataPath>ТестНазначение</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клетка назначение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТестНазначениеКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ТестНазначениеРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<InputField name="ТестФигура_перемещение" id="16">
+					<DataPath>ТестФигура</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фигура</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТестФигура_перемещениеКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ТестФигура_перемещениеРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<Button name="ТестЭтоДопустимоеПеремещение" id="19">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ТестЭтоДопустимоеПеремещение</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Это допустимое перемещение</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ТестЭтоДопустимоеПеремещениеРасширеннаяПодсказка" id="20"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПервыйХод" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первый ход</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа первый ход</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаПервыйХодРасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<InputField name="ТестФигура_ход" id="23">
+					<DataPath>ТестФигура</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фигура</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТестФигура_ходКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТестФигура_ходРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТестПартия_ход" id="26">
+					<DataPath>ТестПартия</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Партия</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТестПартия_ходКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТестПартия_ходРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<Button name="ТестЭтоПервыйХод" id="29">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ТестЭтоПервыйХод</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Это первый ход</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ТестЭтоПервыйХодРасширеннаяПодсказка" id="30"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Отладка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТестПартия" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест партия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Партии</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТестИсточник" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест источник</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Клетки</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТестНазначение" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест назначение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Клетки</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТестФигура" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест фигура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Фигуры</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ТестОпределитьОчередность" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест определить очередность</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест определить очередность</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТестОпределитьОчередность</Action>
+		</Command>
+		<Command name="ТестЭтоДопустимоеПеремещение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест это допустимое перемещение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест это допустимое перемещение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТестЭтоДопустимоеПеремещение</Action>
+		</Command>
+		<Command name="ТестЭтоПервыйХод" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест это первый ход</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест это первый ход</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТестЭтоПервыйХод</Action>
+		</Command>
+	</Commands>
+</Form>
