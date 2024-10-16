@@ -34,6 +34,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостояниеФигур</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВзятиеФигуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПродвижениеПешки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПроверятьОчередностьХода</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

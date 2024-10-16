@@ -150,6 +150,7 @@
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
 			<CommonModule>Механика</CommonModule>
 			<Constant>ОтображатьДокументы</Constant>
+			<Constant>ПроверятьОчередностьХода</Constant>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Партии</Catalog>
