@@ -15,26 +15,52 @@
 					<v8:content>Группа функции</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Width>40</Width>
+			<HorizontalStretch>false</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ThroughAlign>Use</ThroughAlign>
 			<ExtendedTooltip name="ГруппаФункцииРасширеннаяПодсказка" id="6"/>
 			<ChildItems>
+				<LabelDecoration name="Предупреждение" id="11">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перед созданием фигур необходимо создать клетки, так как фигуры создаются с привязкой к клеткам по принципу позиции по умолчанию.
+Повторное создание фигур или клеток удаляет все существующие элементы соответствующего справочника.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПредупреждениеКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ПредупреждениеРасширеннаяПодсказка" id="13"/>
+				</LabelDecoration>
 				<Button name="СоздатьКлетки" id="7">
 					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<CommandName>Form.Command.СоздатьКлетки</CommandName>
 					<ExtendedTooltip name="СоздатьКлеткиРасширеннаяПодсказка" id="8"/>
 				</Button>
 				<Button name="СоздатьФигуры" id="9">
 					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<CommandName>Form.Command.СоздатьФигуры</CommandName>
 					<ExtendedTooltip name="СоздатьФигурыРасширеннаяПодсказка" id="10"/>
 				</Button>
 				<Button name="УдалитьКлетки" id="1">
 					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<CommandName>Form.Command.УдалитьКлетки</CommandName>
 					<ExtendedTooltip name="УдалитьКлеткиРасширеннаяПодсказка" id="2"/>
 				</Button>
 				<Button name="УдалитьФигуры" id="3">
 					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<CommandName>Form.Command.УдалитьФигуры</CommandName>
 					<ExtendedTooltip name="УдалитьФигурыРасширеннаяПодсказка" id="4"/>
 				</Button>
