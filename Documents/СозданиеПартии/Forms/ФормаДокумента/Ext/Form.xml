@@ -23,6 +23,7 @@
 		<InputField name="Партия" id="7">
 			<DataPath>Объект.Партия</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<ContextMenu name="ПартияКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ПартияРасширеннаяПодсказка" id="9"/>
 		</InputField>

@@ -89,15 +89,15 @@
 			<Metadata name="Document.ПродвижениеПешки.Attribute.НовыйСимвол" id="9fdc258f-5f5f-4816-9a0a-39239ded458a"/>
 		</Metadata>
 		<Metadata name="Document.ПродвижениеПешки.ObjectModule" id="87cbfba0-cb0e-46c5-b863-5ed9c0823050.0" configVersion="6bf01c04c4944e48a3b8cdd326093cfb00000000"/>
-		<Metadata name="Document.СозданиеПартии" id="b9be9eea-2be2-433c-ac7f-89cf05e72308" configVersion="2d487740f4cb284a9c72393f45de3d6200000000">
+		<Metadata name="Document.СозданиеПартии" id="b9be9eea-2be2-433c-ac7f-89cf05e72308" configVersion="014b124cde532e45ad1147bb0329d3f500000000">
 			<Metadata name="Document.СозданиеПартии.Attribute.Партия" id="7120d27d-eb44-4f4b-ba2d-63572c12c701"/>
 			<Metadata name="Document.СозданиеПартии.TabularSection.Доска.Attribute.Клетка" id="ca3554ec-859e-4591-ad6b-04aaff94518f"/>
 			<Metadata name="Document.СозданиеПартии.TabularSection.Доска" id="cb0e51e6-2660-4fda-946c-12b4830c3574"/>
 			<Metadata name="Document.СозданиеПартии.TabularSection.Доска.Attribute.Фигура" id="faec9ac2-635d-4fe2-821e-7020517c4b2c"/>
 		</Metadata>
-		<Metadata name="Document.СозданиеПартии.Form.ФормаДокумента" id="b40fda42-c68d-40f3-b71e-96910c5238ee" configVersion="b9e2eb9af413f545b05bbd8698ef696c00000000"/>
-		<Metadata name="Document.СозданиеПартии.Form.ФормаДокумента.Form" id="b40fda42-c68d-40f3-b71e-96910c5238ee.0" configVersion="52d7789eb9687140aad6d4b47eb0c63d00000000"/>
-		<Metadata name="Document.СозданиеПартии.ObjectModule" id="b9be9eea-2be2-433c-ac7f-89cf05e72308.0" configVersion="2305ab6799a9fa4c95cf3930ae38aa4900000000"/>
+		<Metadata name="Document.СозданиеПартии.Form.ФормаДокумента" id="b40fda42-c68d-40f3-b71e-96910c5238ee" configVersion="32507def7a01484e8bd09c2c9e9cfcd300000000"/>
+		<Metadata name="Document.СозданиеПартии.Form.ФормаДокумента.Form" id="b40fda42-c68d-40f3-b71e-96910c5238ee.0" configVersion="e5b29b55396f594b85b83e090a340d5d00000000"/>
+		<Metadata name="Document.СозданиеПартии.ObjectModule" id="b9be9eea-2be2-433c-ac7f-89cf05e72308.0" configVersion="9c5beaae01eb374a87ed93b57eae66c200000000"/>
 		<Metadata name="Enum.ТипыКоманд" id="2ab2d735-83a5-4870-a0d0-e4b9e5965bd6" configVersion="25eea66df9385f4a9e6090e288bae46100000000">
 			<Metadata name="Enum.ТипыКоманд.EnumValue.ВзятиеФигуры" id="876cc3d1-1136-4f6f-b2ce-53e90e669a16"/>
 			<Metadata name="Enum.ТипыКоманд.EnumValue.ПеремещениеФигуры" id="8c174099-a014-477b-af4a-d43debc6d8ea"/>
